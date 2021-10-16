@@ -6,6 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
     <title>flexbox</title>
 </head>
 
@@ -15,22 +20,20 @@
         <div class="header after">New Message</div>
         <form action="#">
             <div class="tag-input-container">
-                <dir>To:</dir>
+                <p>To:</p>
                 <ul class="list">
-                    
-                    <li class="email">abbas@rechat.com</li>
-                    <li><input type="text"></li>
-                    <li class="email">mohadese@gmail.com</li>
-                    <li class="email">mohadese@gmail.com</li>
-                    <li class="email">mohadese@gmail.com</li>
+                    <li class="email">abbas@rechat.com<button class='delete'><i class="fas fa-times"></i></button>
+                    </li>
+                    <li><input type="text" id="input"></li>
+                    <li class="email">mohadese@gmail.com<button class='delete'><i class="fas fa-times"></i></button>
+                    </li>
+                    <li class="email">mohadese@gmail.com<button class='delete'><i class="fas fa-times"></i></button>
+                    </li>
+                    <li class="email">mohadese@gmail.com<button class='delete'><i class="fas fa-times"></i></button>
+                    </li>
                 </ul>
 
             </div>
-            <!-- <div class="box-to">
-            <label for="To">To:</label>
-            <input type="text" name="" id="To">
-
-        </div> -->
             <div class="subject">
                 <label for="subject">Subject:</label>
                 <input type="text" name="" id="subject">
@@ -42,13 +45,9 @@
 
             </div>
         </form>
-        <!-- <div class="box-to after">To:</div>
-        <div class="subject after">subject:</div>
-        <div class="content after">content</div> -->
         <div class="button">footer</div>
     </div>
 
 </body>
-<script src="box.js"></script>
-
+<script src="form.js"></script>
 </html>

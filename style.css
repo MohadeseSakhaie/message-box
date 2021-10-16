@@ -59,12 +59,12 @@ input {
   border: rgb(170, 170, 168) 0.5px solid;
   border-radius: 3.5px;
   margin: 1px 2px;
-  cursor: pointer;
+  cursor: default;
 }
-.tag-input-container li.email::after {
+/* .tag-input-container li.email::after {
   content: "\00d7";
   cursor: pointer;
-}
+} */
 .tag-input-container li.email:hover {
   background-color: rgb(243, 161, 131);
   color: rgb(68, 68, 67);
@@ -99,4 +99,14 @@ li input {
   background-color: #f4f4f4;
   border: #999999 solid 1px;
   border-radius: 5px;
+}
+.remove-element{
+  color: #b4b3b1;
+  border: none;
+  cursor: pointer;
+}
+li button{
+   color: #b4b3b1;
+  border: none;
+  cursor: pointer;
 }
